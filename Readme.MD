@@ -1,4 +1,4 @@
-# 📘 Manual do Usuário – Portal do Professor (Leitura de Notas e Cálculo de Média)
+# 📘 Manual do Usuário – Portal do Professor (Leitura de Notas e Cálculo de Média em PYTHON)
 
 ## 🎯 Visão Geral
 Este sistema foi desenvolvido para auxiliar professores na visualização e análise de notas de alunos.  
@@ -115,3 +115,7 @@ Executar programa
 ---
 
 Fim do Manual. 🎓
+
+
+# 📘 Manual do Usuário - Interface de Dados dos Alunos ( Receptor de dados para um .txt)
+
