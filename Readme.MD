@@ -117,7 +117,7 @@ Executar programa
 Fim do Manual. 🎓
 
 
-# 📘 Manual do Usuário – Sistema Acadêmico (.TXT)
+# 📘 Manual do Usuário – Sistema Acadêmico (C .TXT)
 
 ## 🎯 Visão Geral  
 Este sistema foi desenvolvido em **C** com o objetivo de **gerenciar cadastros de alunos e turmas**, além de permitir o **vínculo entre eles** e o **registro das notas (NP1, NP2 e PIM)**.  
@@ -198,5 +198,6 @@ Se não houver alunos:
 ```
 Nenhum aluno cadastrado ainda.
 ```
+
 
 
