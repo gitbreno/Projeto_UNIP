@@ -99,7 +99,7 @@ def abrir_interface_alunos():
                     caixa_texto.insert("end", f"🏅 Situação: {status}\n")
                     caixa_texto.insert("end", "─" * 80 + "\n")
 
-                    # cores para aprovado/reprovado
+                    #cores para aprovado/reprovado
                     if status == "✅ APROVADO":
                         caixa_texto.tag_add("aprovado", f"end-5l", f"end-1l")
                         caixa_texto.tag_config("aprovado", foreground="green")

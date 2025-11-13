@@ -1,0 +1,40 @@
+--- Dados do Aluno ---
+Matricula: 1234
+Nome: Pedro Exemplo
+NP1: 9.0
+NP2: 8.0
+PIM: 7.0
+TurmaID: -1
+
+--- Dados do Aluno ---
+Matricula: 4321
+Nome: Rayssa Exemplo
+NP1: 3.0
+NP2: 2.0
+PIM: 1.0
+TurmaID: -1
+
+--- Dados do Aluno ---
+Matricula: 1111
+Nome: Bruno Exemplo
+NP1: 3.0
+NP2: 9.0
+PIM: 8.0
+TurmaID: -1
+
+--- Dados do Aluno ---
+Matricula: 2222
+Nome: Leticia Exemplo
+NP1: 10.0
+NP2: 3.0
+PIM: 4.0
+TurmaID: -1
+
+--- Dados do Aluno ---
+Matricula: 4444
+Nome: Giovana
+NP1: 9.0
+NP2: 8.0
+PIM: 9.0
+TurmaID: -1
+
