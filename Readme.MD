@@ -117,5 +117,86 @@ Executar programa
 Fim do Manual. 🎓
 
 
-# 📘 Manual do Usuário - Interface de Dados dos Alunos ( Receptor de dados para um .txt)
+# 📘 Manual do Usuário – Sistema Acadêmico (.TXT)
+
+## 🎯 Visão Geral  
+Este sistema foi desenvolvido em **C** com o objetivo de **gerenciar cadastros de alunos e turmas**, além de permitir o **vínculo entre eles** e o **registro das notas (NP1, NP2 e PIM)**.  
+Todas as informações são armazenadas em **arquivos `.txt`**, tornando o uso simples e acessível.
+
+O sistema oferece:
+- Cadastro e listagem de alunos  
+- Cadastro e listagem de turmas  
+- Vínculo entre alunos e turmas  
+- Inserção de exemplos automáticos  
+- Gravação automática dos dados em arquivos de texto  
+
+---
+
+## 🖥️ Execução do Programa  
+
+### Requisitos:
+- Compilador **C** (ex: GCC)
+- Sistema operacional com terminal (Windows, Linux ou macOS)
+
+### Passos para execução:
+```bash
+gcc Sistema-C.txt -o sistema
+./sistema
+```
+
+---
+
+## 🧭 Menu Principal
+
+Ao iniciar o programa, o usuário verá o seguinte menu:
+
+```
+=== SISTEMA ACADEMICO (.TXT) ===
+1 - Cadastrar aluno
+2 - Listar alunos
+3 - Cadastrar turma
+4 - Listar turmas
+5 - Vincular aluno a turma
+6 - Listar vinculos aluno->turma
+7 - Inserir exemplos
+0 - Sair
+Escolha:
+```
+
+O usuário deve digitar o número correspondente à ação desejada.
+
+---
+
+## 👩‍🎓 Cadastro de Alunos
+
+**Função:** `registerStudent()`
+
+**Descrição:** Permite inserir as informações de um novo aluno.  
+As informações são gravadas no arquivo `students.txt`.
+
+**Campos solicitados:**
+- Matrícula (número)
+- Nome completo
+- Nota NP1
+- Nota NP2
+- Nota PIM
+
+**Saída esperada:**
+```
+Aluno salvo com sucesso no arquivo students.txt!
+```
+
+---
+
+## 📋 Listagem de Alunos
+
+**Função:** `listStudents()`
+
+**Descrição:** Exibe no terminal todos os alunos cadastrados, lendo os dados do arquivo `students.txt`.
+
+Se não houver alunos:
+```
+Nenhum aluno cadastrado ainda.
+```
+
 
